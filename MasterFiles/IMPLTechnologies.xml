@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<metric id="7601001" type="quality-rule" originalName="fsharplint SDK: Hint This code might be able to be refactored" filter="7601000" filterLabel="fsharplint"/>
+
+</root>

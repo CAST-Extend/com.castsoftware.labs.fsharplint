@@ -1,0 +1,67 @@
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\AccountState.fs ==========
+========== Finished: 0 warnings ==========
+========== Summary: 0 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\AccountValuation.fs ==========
+`Seq.sum (Seq.map x y)` might be able to be refactored into `Seq.sumBy x y`.
+Error on line 237 starting at column 16
+                ^                      
+                state.Assets.Values
+--------------------------------------------------------------------------------
+`Seq.sum (Seq.map x y)` might be able to be refactored into `Seq.sumBy x y`.
+Error on line 327 starting at column 8
+        ^                             
+        state.Assets.Values
+--------------------------------------------------------------------------------
+`Seq.sum (Seq.map x y)` might be able to be refactored into `Seq.sumBy x y`.
+Error on line 337 starting at column 8
+        ^                             
+        state.Assets.Values
+--------------------------------------------------------------------------------
+`Seq.sum (Seq.map x y)` might be able to be refactored into `Seq.sumBy x y`.
+Error on line 342 starting at column 8
+        ^                             
+        state.Assets.Values
+--------------------------------------------------------------------------------
+`Seq.sum (Seq.map x y)` might be able to be refactored into `Seq.sumBy x y`.
+Error on line 349 starting at column 8
+        ^                             
+        state.Assets.Values
+--------------------------------------------------------------------------------
+========== Finished: 5 warnings ==========
+========== Summary: 5 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\AssemblyInfo.fs ==========
+========== Finished: 0 warnings ==========
+========== Summary: 0 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\AssetProcessing.fs ==========
+========== Finished: 0 warnings ==========
+========== Summary: 0 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\Common.fs ==========
+`Seq.isEmpty (Seq.filter f x)` might be able to be refactored into `not (Seq.exists f x)`.
+Error on line 66 starting at column 9
+         ^                           
+         state.Assets.Values
+--------------------------------------------------------------------------------
+========== Finished: 1 warnings ==========
+========== Summary: 1 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\DtoConverter.fs ==========
+========== Finished: 0 warnings ==========
+========== Summary: 0 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\Exception.fs ==========
+========== Finished: 0 warnings ==========
+========== Summary: 0 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\ModelConverter.fs ==========
+`x = null` might be able to be refactored into `isNull x`.
+Error on line 275 starting at column 11
+           ^                           
+        if fd.AssetDeductions = null then
+--------------------------------------------------------------------------------
+`x = null` might be able to be refactored into `isNull x`.
+Error on line 398 starting at column 11
+           ^                           
+        if lbd=null then
+--------------------------------------------------------------------------------
+========== Finished: 2 warnings ==========
+========== Summary: 2 warnings ==========
+========== Linting C:\Oxygenworkspacefsharplint\com.castsoftware.labs.fsharplint\tests\fs\Rebalancing.fs ==========
+========== Finished: 0 warnings ==========
+========== Summary: 0 warnings ==========

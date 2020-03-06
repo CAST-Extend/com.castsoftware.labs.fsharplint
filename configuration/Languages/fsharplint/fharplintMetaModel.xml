@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel file_level="client"  file_no="76">
+
+	<category name="fsharplint" rid="2">
+		<description>fsharplint</description>
+		<attribute name="extensions" stringValue="*.fs"/>
+		<inheritedCategory name="UniversalLanguage"/>
+		<inheritedCategory name="CsvLanguage"/>
+	</category>
+
+    
+	
+	<category name="APM fsharplint Module" rid="0">
+		<description>fsharplint</description>
+		<inheritedCategory name="APM Client Modules"/>
+	</category>
+
+	<category name="APM fsharplint Artifacts" rid="1">
+		<description>fsharplint Artifacts</description>
+		<inheritedCategory name="APM Client Language Artifacts"/>
+		<!-- <inheritedCategory name="APM Sources"/> -->
+	</category>
+	
+	
+	
+	<!-- fsharplint Enlighten group -->
+	<type name="Enlightenfsharplint" rid="900">
+		<description>fsharplint</description>
+		<tree parent="EnlightenUniversalObjects" category="EnlightenTree"/>
+	</type>
+	
+	<type name="fsharplintProject" rid="3">
+		<description>fsharplint Project</description>
+		<inheritedCategory name="UAProject"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM fsharplint Module"/>
+	</type>
+	
+	<type name="fsharplint_SUBSET" rid="400">
+		<description>fsharplint Subset</description>
+		<inheritedCategory name="PROJECT_SUBSET"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM fsharplint Module"/>
+    </type>
+	
+	
+<!-- Artifacts defined -->
+	
+	<type name="fsharp_namespace" rid="4">
+         <description>fsharp Namespace</description>
+         <inheritedCategory name="fsharplint"/>
+         <inheritedCategory name="UAObject"/>
+         <inheritedCategory name="APM All Artifacts"/>
+         <tree parent="EnlightenUniversalObjects" category="EnlightenTree" />
+   </type>  
+   
+ <type name="fsharp_open" rid="5">
+         <description>fsharp open</description>
+         <inheritedCategory name="fsharplint"/>
+         <inheritedCategory name="UAObject"/>
+         <inheritedCategory name="parentnamespaceProperties"/>
+         <inheritedCategory name="APM All Artifacts"/>
+         <tree parent="EnlightenUniversalObjects" category="EnlightenTree" />
+   </type>  
+   
+   <type name="fsharp_module" rid="6">
+         <description>fsharp module</description>
+         <inheritedCategory name="fsharplint"/>
+         <inheritedCategory name="UAObject"/>
+         <inheritedCategory name="parentnamespaceProperties"/>
+         <inheritedCategory name="APM All Artifacts"/>
+         <tree parent="EnlightenUniversalObjects" category="EnlightenTree" />
+   </type>  
+   
+   <type name="fsharp_type" rid="7">
+         <description>fsharp type</description>
+         <inheritedCategory name="fsharplint"/>
+         <inheritedCategory name="UAObject"/>
+         <inheritedCategory name="parentnamespaceProperties"/>
+         <inheritedCategory name="APM All Artifacts"/>
+         <tree parent="EnlightenUniversalObjects" category="EnlightenTree" />
+   </type>
+   
+    <type name="fsharp_let" rid="8">
+         <description>fsharp let</description>
+         <inheritedCategory name="fsharplint"/>
+         <inheritedCategory name="UAObject"/>
+         <inheritedCategory name="parentnamespaceProperties"/>
+         <inheritedCategory name="parentmoduleProperties"/>
+         <inheritedCategory name="APM All Artifacts"/>
+         <tree parent="EnlightenUniversalObjects" category="EnlightenTree" />
+   </type>  
+   
+    <category name="parentnamespaceProperties" rid="13">
+	
+        <description>Custom properties for parentType Objects</description>
+        <property name="fsharpparent" type="string" rid="14">
+            <description>parent fsharp namespace</description>
+            <attribute name="INF_TYPE" intValue="7601000"/>
+            <attribute name="INF_SUB_TYPE" intValue="1"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      	</property>
+     </category>
+     
+     <category name="parentmoduleProperties" rid="16">
+        <description>Custom properties for module parentType Objects</description>
+        <property name="fsharpparentmodule" type="string" rid="17">
+            <description>parent fsharp module</description>
+            <attribute name="INF_TYPE" intValue="7601000"/>
+            <attribute name="INF_SUB_TYPE" intValue="1"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      	</property>  	     	
+	</category>
+  
+  
+   <category name="fsharplint_CustomMetrics" id="7601001">
+		<description>Custom category for additional properties on fsharp lint</description>
+	  <property name="RulesHintRefactor" type="integer"  merge ="sum" id="7601020">
+			<description>fsharplint SDK: Hint This code might be able to be refactored</description>
+			<attribute name="INF_TYPE" intValue="2758020"/>
+			<attribute name="INF_SUB_TYPE" intValue="0"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+	 </property>
+	 
+	  <property name="RulesReimplementsFunction" type="integer"  merge ="sum" id="7601021">
+			<description>fsharplint SDK: Has no mutable arguments partially applied then the lambda can be removed</description>
+			<attribute name="INF_TYPE" intValue="2758020"/>
+			<attribute name="INF_SUB_TYPE" intValue="0"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+	 </property>
+	</category>
+	
+</metaModel>
+

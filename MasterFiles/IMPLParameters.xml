@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<metric id="65105" type="quality-distribution" originalName="Size Distribution" parameterName="Average Size Threshold" parameterType="float" parameterIndex="1" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>100.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65105" type="quality-distribution" originalName="Size Distribution" parameterName="Large Size Threshold" parameterType="float" parameterIndex="2" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>500.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65105" type="quality-distribution" originalName="Size Distribution" parameterName="Very Large Size Threshold" parameterType="float" parameterIndex="3" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>1000.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65350" type="quality-distribution" originalName="Coupling Distribution" parameterName="Average Coupling Artifacts Threshold" parameterType="float" parameterIndex="1" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>4.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65350" type="quality-distribution" originalName="Coupling Distribution" parameterName="High Coupling Artifacts Threshold" parameterType="float" parameterIndex="2" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>10.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65350" type="quality-distribution" originalName="Coupling Distribution" parameterName="Very High Coupling Artifacts Threshold" parameterType="float" parameterIndex="3" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>30.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65501" type="quality-distribution" originalName="Cyclomatic Complexity Distribution" parameterName="Average Complexity Artifact Threshold" parameterType="float" parameterIndex="1" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>5.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65501" type="quality-distribution" originalName="Cyclomatic Complexity Distribution" parameterName="High Complexity Artifact Threshold" parameterType="float" parameterIndex="2" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>15.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+	<metric id="65501" type="quality-distribution" originalName="Cyclomatic Complexity Distribution" parameterName="Very High Complexity Artifact Threshold" parameterType="float" parameterIndex="3" filter="7601000" filterLabel="fsharplint" parameterDescription="N/A">
+		<defaultValue>30.0</defaultValue>
+		<defaultValuesList>N/A</defaultValuesList>
+	</metric>
+</root>

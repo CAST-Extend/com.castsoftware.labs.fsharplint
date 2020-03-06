@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <metric id='7601001' type='quality-rule' originalName='fsharplint SDK: Hint This code might be able to be refactored' xxl='N/A' unify='N/A' executionLocation='local-central' scopeID='7601000' scopeLabel='fsharplintScope' propertyID='7601020' associatedValueResultType='no-value' failedChecksOperator1='count-distinct' failedChecksProcedure='DSS_DIAG_SCOPE_GENERIC_NUM' totalChecksProcedure='DSS_DIAG_TOTAL_GENERIC' consolidationLocalProcedure='DSS_FILTER_SCOPE' consolidationCentralProcedure='N/A' />
+  <metric id='7601001' type='quality-rule' originalName='fsharplint SDK: Has no mutable arguments partially applied then the lambda can be removed' xxl='N/A' unify='N/A' executionLocation='local-central' scopeID='7601000' scopeLabel='fsharplintScope' propertyID='7601021' associatedValueResultType='no-value' failedChecksOperator1='count-distinct' failedChecksProcedure='DSS_DIAG_SCOPE_GENERIC_NUM' totalChecksProcedure='DSS_DIAG_TOTAL_GENERIC' consolidationLocalProcedure='DSS_FILTER_SCOPE' consolidationCentralProcedure='N/A' />
+  
+</root>

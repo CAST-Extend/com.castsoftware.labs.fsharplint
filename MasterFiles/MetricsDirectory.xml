@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<metric id='-1' type='N/A' originalName='' active='N/A' detached='N/A' ignored='false' />
+	<metric id="61004" type="technical-criterion" originalName="Architecture - OS and Platform Independence" active='N/A' detached='N/A' ignored="false"/>
+  	<metric id='61014' type='technical-criterion' originalName='Programming Practices - Error and Exception Handling' active='N/A' detached='N/A' ignored='false' />
+    <metric id='61024' type='technical-criterion' originalName='Programming Practices - Structuredness' active='N/A' detached='N/A' ignored='false' />
+    <metric id='61029' type='technical-criterion' originalName='Complexity - Dynamic Instantiation' active='N/A' detached='N/A' ignored="false"/>
+    <metric id='66009' type='technical-criterion' originalName='Architecture - Reuse' active='N/A' detached='N/A' ignored='false' />
+    <metric id="66069" type="technical-criterion" originalName="Programming Practices - Unexpected Behavior" active='N/A' detached='N/A' ignored="false"/>
+	 <!-- 3 mandatory distributions for AEP -->
+    <metric id="65105" type="quality-distribution" originalName="Size Distribution"                   active="N/A" detached="N/A" ignored="false"/>
+    <metric id="65350" type="quality-distribution" originalName="Coupling Distribution"               active="N/A" detached="N/A" ignored="false"/>
+    <metric id="65501" type="quality-distribution" originalName="Cyclomatic Complexity Distribution"  active="N/A" detached="N/A" ignored="false"/>
+	<!-- quailty rule -->
+	<metric id="7601001" type="quality-rule" originalName="fsharplint SDK: Hint This code might be able to be refactored" active="true" detached="false" ignored="false"/>
+</root>
