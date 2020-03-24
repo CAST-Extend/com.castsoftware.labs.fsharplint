@@ -1,3 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <root>
- </root>
+   <metric id='2761010' type='quality-rule' originalName='Custom category for additional properties on fsharp lint' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+    <metric id='2761012' type='quality-rule' originalName='Hint This code might be able to be refactored' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761014' type='quality-rule' originalName='Has no mutable arguments partially applied then the lambda can be removed' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761016' type='quality-rule' originalName='failwithf has more arguments than were found in its format string these further arguments will be ignored by the compiler.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761018' type='quality-rule' originalName='failwith should have a single argument further arguments will be ignored by the compiler.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761020' type='quality-rule' originalName='The ignore function is usually favoured over let _  when ignoring the result of an expression.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761022' type='quality-rule' originalName='suggestion to refactor.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761024' type='quality-rule' originalName='Consider changing  to camelCase.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761026' type='quality-rule' originalName='Consider changing  to PascalCase.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761028' type='quality-rule' originalName='Consider changing  to remove any underscores.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761030' type='quality-rule' originalName='Consider changing to be prefixed with value.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761032' type='quality-rule' originalName='Consider changing  to be suffixed with value.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761034' type='quality-rule' originalName='Code suggested not to be nested more deeply than a depth of standard.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761118' type='quality-rule' originalName='Conditions suggested to contain at most  boolean operators.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761120' type='quality-rule' originalName='Class suggested to have a maximum of value members.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761036' type='quality-rule' originalName='Functions suggested to have a maximum of value parameters.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761038' type='quality-rule' originalName='Common other Violation.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761040' type='quality-rule' originalName='raise should have a single argument further arguments will be ignored by the compiler.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761042' type='quality-rule' originalName='value  was  lines long suggested to be less than value lines long.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761044' type='quality-rule' originalName='Tuple suggested to have a maximum of value items.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761046' type='quality-rule' originalName='File suggested to be less than standard lines long.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761048' type='quality-rule' originalName='Line suggested to be less than standard characters long.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761050' type='quality-rule' originalName='Consider replacing tab (\t) with spaces.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761052' type='quality-rule' originalName='Found trailing whitespace line at end of file.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761054' type='quality-rule' originalName='Found trailing whitespace at end of line.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761056' type='quality-rule' originalName='Binding appears to have no purpose.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761058' type='quality-rule' originalName='Unnecessary wildcard named using the as pattern the wildcard can be removed e.g. _ as x replaced with x.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761060' type='quality-rule' originalName='invalidArg should have two arguments further arguments will be ignored by the compiler.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761062' type='quality-rule' originalName='invalidOp should have a single argument further arguments will be ignored by the compiler.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761064' type='quality-rule' originalName='nullArg should have a single argument further arguments will be ignored by the compiler.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761066' type='quality-rule' originalName='A tuple of wildcards in a pattern can be replaced with a single wildcard.  can be replaced with ..' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761068' type='quality-rule' originalName='Error on line  starting at column.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761070' type='quality-rule' originalName='Lambda may be able to be replaced with composition. e.g. fun x -&gt; x |&gt; isValid |&gt; not could be replaced with isValid &gt;&gt; not' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761072' type='quality-rule' originalName='Usage of new keyword here is redundant.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761074' type='quality-rule' originalName='Each match clause should be placed on its own line..' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761076' type='quality-rule' originalName='Each or match clause should be placed on its own line.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761078' type='quality-rule' originalName='Comma in tuple instantiation should be followed by single space.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761080' type='quality-rule' originalName='Sub-expressions of tuple on different lines should have consistent indentation.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761082' type='quality-rule' originalName='Use parentheses for tuple instantiation.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761084' type='quality-rule' originalName='Expected  space(s) before and {1} space(s) after : in typed item.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761086' type='quality-rule' originalName='Use special postfix syntax for F type array.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761088' type='quality-rule' originalName='Use postfix syntax for fsharp type .' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761090' type='quality-rule' originalName='Use prefix syntax for generic type.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761092' type='quality-rule' originalName='Match clauses should be in line with match keyword.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761094' type='quality-rule' originalName='Match clauses should be indented one level from function keyword.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761096' type='quality-rule' originalName='Match clauses should be at the same indentation level.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761098' type='quality-rule' originalName='If RHS of pattern match case is on newline it should be indentend by one level.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761100' type='quality-rule' originalName='Separate module declarations with 2 blank lines.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761102' type='quality-rule' originalName='Class members should be separated by 1 blank line.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761104' type='quality-rule' originalName='Union definition cases should be indented one level on a new line.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761106' type='quality-rule' originalName='Union definition cases should be at the same indentation level.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761108' type='quality-rule' originalName='Prefer namespaces at top level.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761110' type='quality-rule' originalName='Indentation must use a multiple of spaces.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761112' type='quality-rule' originalName='Record fields should be aligned.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761114' type='quality-rule' originalName='Invalid indentation.' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+  <metric id='2761116' type='quality-rule' originalName='Recursive async functions ending with a do recursive call will leak memory; prefer return..' thresholdToGet1='10.0' thresholdToGet2='70.0' thresholdToGet3='90.0' thresholdToGet4='99.0' />
+	
+</root>

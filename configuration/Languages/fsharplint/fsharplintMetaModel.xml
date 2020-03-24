@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel file_level="client" file_no="760">
+
+       
+	<category name="APM_fsharplint_Module" rid="1">
+		<description>fsharplint</description>
+		<inheritedCategory name="APM Client Modules"/>
+	</category>
+	
+	 <type name="fsharplint_SUBSET" rid="10">
+		<description>fsharplint Subset</description>
+		<inheritedCategory name="PROJECT_SUBSET"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM_fsharplint_Module"/>
+    </type>
+    
+    <partialType name="sourceFile" >
+        <inheritedCategory name="fsharplint_CustomMetrics_RulesHintRefactor"/>
+        <inheritedCategory name="fsharplint_CustomMetrics_RulesReimplementsFunction"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFailwithfWithArgumentsMatchingFormatString"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFailwithWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFavourIgnoreOverLetWildError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesHintSuggestion"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsCamelCaseError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsPascalCaseError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsUnderscoreError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsPrefixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsSuffixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNestedStatementsError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsBooleanConditionsError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsClassMembersError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsFunctionError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberfsharpcommon"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesRaiseWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesSourceLengthError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsTupleError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyFileLengthError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyLineLengthError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyTabCharacterError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyTrailingLineError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyTrailingWhitespaceError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesUselessBindingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesWildcardNamedWithAsPattern"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesInvalidArgWithTwoArguments"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesInvalidOpWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNullArgWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTupleOfWildcardsError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesCanBeReplacedWithComposition"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesRedundantNewKeyword"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClausesOnNewLineError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchOrClausesOnNewLineError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTupleCommaSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTupleIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTupleParenthesesError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTypedItemSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingFArrayPostfixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingFPostfixGenericError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingGenericPrefixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClauseIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingLambdaPatternMatchClauseIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClauseSameIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingMatchExpressionIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingModuleDeclSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingClassMemberSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingUnionDefinitionIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingUnionDefinitionSameIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesConventionsTopLevelNamespaceError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyRecordFieldIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyOverridenIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesConventionsRecursiveAsyncFunctionError"/>
+        <inheritedCategory name="APM Client Language Artifacts"/>
+    </partialType> 
+     
+	<category name="APM_fsharplint_Artifacts" rid="2">
+		<description>fsharplint Artifacts</description>
+		<inheritedCategory name="APM Client Language Artifacts"/>
+	</category>
+	
+	<category name="fsharplint" rid="3">
+		<description>fsharplint</description>
+		<attribute name="extensions" stringValue="*.fs"/>
+		<inheritedCategory name="UniversalLanguage"/>
+		<inheritedCategory name="CsvLanguage"/>
+	</category>
+	
+	<!--  Enlighten group -->
+	<type name="Enlightenfsharplint" rid="900">
+		<description>Enlighten fsharplint</description>
+		<tree parent="EnlightenUniversalObjects" category="EnlightenTree"/>
+	</type>
+	
+	
+	<!-- Fsharplint project -->
+    <type name="fsharplint_Project" rid="6">
+        <description>fsharp Project</description>
+        <inheritedCategory name="UAProject" />
+        <inheritedCategory name="fsharplint" />
+        <inheritedCategory name="APM_fsharplint_Module" />
+    </type>
+	
+	<!--  Objects Defining  -->
+	<type name="fsharp_namespace" rid="4">
+		<description>fsharp namespace</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM_fsharplint_Artifacts"/>
+		<tree parent="Enlightenfsharplint" category="EnlightenTree"/>
+	</type>
+	
+	<type name="fsharp_module" rid="5">
+		<description>fsharp module</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesHintRefactor"/>
+        <inheritedCategory name="fsharplint_CustomMetrics_RulesReimplementsFunction"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFailwithfWithArgumentsMatchingFormatString"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFailwithWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFavourIgnoreOverLetWildError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesHintSuggestion"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsCamelCaseError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsPascalCaseError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsUnderscoreError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsPrefixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNamingConventionsSuffixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNestedStatementsError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsBooleanConditionsError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsClassMembersError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsFunctionError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberfsharpcommon"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesRaiseWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesSourceLengthError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNumberOfItemsTupleError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyFileLengthError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyLineLengthError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyTabCharacterError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyTrailingLineError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyTrailingWhitespaceError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesUselessBindingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesWildcardNamedWithAsPattern"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesInvalidArgWithTwoArguments"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesInvalidOpWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesNullArgWithSingleArgument"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTupleOfWildcardsError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesCanBeReplacedWithComposition"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesRedundantNewKeyword"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClausesOnNewLineError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchOrClausesOnNewLineError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTupleCommaSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTupleIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTupleParenthesesError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingTypedItemSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingFArrayPostfixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingFPostfixGenericError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingGenericPrefixError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClauseIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingLambdaPatternMatchClauseIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClauseSameIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingMatchExpressionIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingModuleDeclSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingClassMemberSpacingError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingUnionDefinitionIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesFormattingUnionDefinitionSameIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesConventionsTopLevelNamespaceError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyRecordFieldIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesTypographyOverridenIndentationError"/>
+		<inheritedCategory name="fsharplint_CustomMetrics_RulesConventionsRecursiveAsyncFunctionError"/>
+		<inheritedCategory name="APM_fsharplint_Artifacts"/>
+		<inheritedCategory name="parentnamespaceProperties"/>
+		
+		<tree parent="Enlightenfsharplint" category="EnlightenTree"/>
+	</type>
+	
+	<type name="fsharp_let" rid="9">
+		<description>fsharp let</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM_fsharplint_Artifacts"/>
+		<inheritedCategory name="parentnamespaceProperties"/>
+        <inheritedCategory name="parentmoduleProperties"/>
+        <tree parent="Enlightenfsharplint" category="EnlightenTree"/>
+	</type>
+	
+	<type name="fsharp_open" rid="12">
+		<description>fsharp open</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM_fsharplint_Artifacts"/>
+		<inheritedCategory name="parentnamespaceProperties"/>
+		<tree parent="Enlightenfsharplint" category="EnlightenTree"/>
+	</type>
+
+	
+	<type name="fsharp_type" rid="7">
+		<description>fsharp type</description>
+		<inheritedCategory name="UAObject"/>
+		<inheritedCategory name="caseInsensitive"/>
+		<inheritedCategory name="fsharplint"/>
+		<inheritedCategory name="APM_fsharplint_Artifacts"/>
+		<inheritedCategory name="APM IFPUG Transaction"/>	
+		<inheritedCategory name="parentnamespaceProperties"/>
+		<tree parent="Enlightenfsharplint" category="EnlightenTree"/>
+	</type>
+	
+	
+     <category name="parentnamespaceProperties" rid="8">
+        <description>Custom properties for parentType Objects</description>
+        <property name="fsharpparent" type="string" rid="16">
+            <description>parent fsharp namespace</description>
+            <attribute name="INF_TYPE" intValue="2761002"/>
+            <attribute name="INF_SUB_TYPE" intValue="1"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      	</property>
+     </category>
+     
+     <category name="parentmoduleProperties" rid="13">
+        <description>Custom properties for module parentType Objects</description>
+        <property name="fsharpparentmodule" type="string" rid="27613020">
+            <description>parent fsharp module</description>
+            <attribute name="INF_TYPE" intValue="2761040"/>
+            <attribute name="INF_SUB_TYPE" intValue="1"/>
+            <attribute name="ACCESS_APPVIEW" intValue="1"/>
+            <attribute name="ACCESS_CVS" intValue="1"/>
+            <attribute name="ACCESS_HTML" intValue="1"/>
+      	</property>  	     	
+	</category>
+  
+  
+   <category name="fsharplint_CustomMetrics" id="2761010">
+	<description>Custom category for additional properties on fsharp lint</description>
+	 <property name="Rulescommon" type="integer"  merge ="sum" id="2761312">
+			<description>Hint This code might be able to be refactored</description>
+			<attribute name="INF_TYPE" intValue="2761312"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	 </property>
+		</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesHintRefactor" id="2761012">
+	  <description>Hint This code might be able to be refactored</description>
+	 <property name="RulesHintRefactor" type="integer"  merge ="sum" id="2761200">
+			<description>Hint This code might be able to be refactored</description>
+			<attribute name="INF_TYPE" intValue="2761200"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	 </property>
+	</category>
+	<category name="fsharplint_CustomMetrics_RulesReimplementsFunction" id="2761014"> 
+	 <description>Has no mutable arguments partially applied then the lambda can be removed</description>
+	  <property name="RulesReimplementsFunction" type="integer"  merge ="sum" id="2761202">
+			<description>Has no mutable arguments partially applied then the lambda can be removed</description>
+			<attribute name="INF_TYPE" intValue="2761202"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	 </property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFailwithfWithArgumentsMatchingFormatString" id="2761016"> 
+	<description>failwithf has more arguments than were found in its format string these further arguments will be ignored by the compiler.</description> 
+	<property name="RulesFailwithfWithArgumentsMatchingFormatString" type="integer"  merge ="sum" id="2761204">
+			<description>failwithf has more arguments than were found in its format string these further arguments will be ignored by the compiler.</description>
+			<attribute name="INF_TYPE" intValue="2761204"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	 </property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFailwithWithSingleArgument" id="2761018"> 
+	<description>failwith should have a single argument further arguments will be ignored by the compiler.</description>  
+	<property name="RulesFailwithWithSingleArgument" type="integer"  merge ="sum" id="2761206">
+			<description>failwith should have a single argument further arguments will be ignored by the compiler.</description>
+			<attribute name="INF_TYPE" intValue="2761206"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	 </property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFavourIgnoreOverLetWildError" id="2761020"> 
+	<description>The ignore function is usually favoured over let _  when ignoring the result of an expression.</description>  
+    <property name="RulesFavourIgnoreOverLetWildError" type="integer"  merge ="sum" id="2761208">
+			<description>The ignore function is usually favoured over let _  when ignoring the result of an expression.</description>
+			<attribute name="INF_TYPE" intValue="2761208"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	 </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesHintSuggestion" id="2761022"> 
+	<description>suggestion to refactor.</description> 
+    <property name="RulesHintSuggestion" type="integer"  merge ="sum" id="2761210">
+			<description>suggestion to refactor</description>
+			<attribute name="INF_TYPE" intValue="2761210"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNamingConventionsCamelCaseError" id="2761024"> 
+	<description>Consider changing  to camelCase.</description> 
+    <property name="RulesNamingConventionsCamelCaseError" type="integer"  merge ="sum" id="2761212">
+			<description>Consider changing  to camelCase.</description>
+			<attribute name="INF_TYPE" intValue="2761212"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNamingConventionsPascalCaseError" id="2761026"> 
+	<description>Consider changing  to PascalCase.</description> 
+	<property name="RulesNamingConventionsPascalCaseError" type="integer"  merge ="sum" id="2761214">
+			<description>Consider changing  to PascalCase.</description>
+			<attribute name="INF_TYPE" intValue="2761214"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNamingConventionsUnderscoreError" id="2761028"> 
+	<description>Consider changing  to remove any underscores.</description> 
+	<property name="RulesNamingConventionsUnderscoreError" type="integer"  merge ="sum" id="2761216">
+			<description>Consider changing  to remove any underscores.</description>
+			<attribute name="INF_TYPE" intValue="2761216"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+   </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNamingConventionsPrefixError" id="2761030"> 
+	<description>Consider changing to be prefixed with value.</description> 
+    <property name="RulesNamingConventionsPrefixError" type="integer"  merge ="sum" id="2761218">
+			<description>Consider changing to be prefixed with value.</description>
+			<attribute name="INF_TYPE" intValue="2761218"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNamingConventionsSuffixError" id="2761032"> 
+	<description>Consider changing  to be suffixed with value.</description> 
+     <property name="RulesNamingConventionsSuffixError" type="integer"  merge ="sum" id="2761220">
+			<description>Consider changing  to be suffixed with value.</description>
+			<attribute name="INF_TYPE" intValue="2761220"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNestedStatementsError" id="2761034"> 
+	<description>Code suggested not to be nested more deeply than a depth of standard.</description>
+	<property name="RulesNestedStatementsError" type="integer"  merge ="sum" id="2761222">
+			<description>Code suggested not to be nested more deeply than a depth of standard.</description>
+			<attribute name="INF_TYPE" intValue="2761222"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNumberOfItemsBooleanConditionsError" id="2761118"> 
+	<description>Conditions suggested to contain at most  boolean operators.</description>
+	<property name="RulesNumberOfItemsBooleanConditionsError" type="integer"  merge ="sum" id="2761224">
+			<description>Conditions suggested to contain at most  boolean operators.</description>
+			<attribute name="INF_TYPE" intValue="2761224"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+	</category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNumberOfItemsClassMembersError" id="2761120"> 
+	<description>Class suggested to have a maximum of value members.</description>
+	<property name="RulesNumberOfItemsClassMembersError" type="integer"  merge ="sum" id="2761226">
+			<description>Class suggested to have a maximum of value members.</description>
+			<attribute name="INF_TYPE" intValue="2761226"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+   </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNumberOfItemsFunctionError" id="2761036"> 
+	<description>Functions suggested to have a maximum of value parameters.</description>
+     <property name="RulesNumberOfItemsFunctionError" type="integer"  merge ="sum" id="2761228">
+			<description>Functions suggested to have a maximum of value parameters.</description>
+			<attribute name="INF_TYPE" intValue="2761228"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+	</property>
+  
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNumberfsharpcommon" id="2761038"> 
+	<description>Common other Violation.</description>
+  <property name="RulesNumberfsharpcommon" type="integer"  merge ="sum" id="2761230">
+			<description>Common other Violation.</description>
+			<attribute name="INF_TYPE" intValue="2761230"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesRaiseWithSingleArgument" id="2761040"> 
+	<description>raise should have a single argument further arguments will be ignored by the compiler.</description>
+  <property name="RulesRaiseWithSingleArgument" type="integer"  merge ="sum" id="2761232">
+			<description>raise should have a single argument further arguments will be ignored by the compiler.</description>
+			<attribute name="INF_TYPE" intValue="2761232"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesSourceLengthError" id="2761042"> 
+	<description>value  was  lines long suggested to be less than value lines long.</description>
+    <property name="RulesSourceLengthError" type="integer"  merge ="sum" id="2761234">
+			<description>value  was  lines long suggested to be less than value lines long.</description>
+			<attribute name="INF_TYPE" intValue="2761234"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNumberOfItemsTupleError" id="2761044"> 
+	<description>Tuple suggested to have a maximum of value items.</description>
+    <property name="RulesNumberOfItemsTupleError" type="integer"  merge ="sum" id="2761236">
+			<description>Tuple suggested to have a maximum of value items.</description>
+			<attribute name="INF_TYPE" intValue="2761236"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyFileLengthError" id="2761046"> 
+	<description>File suggested to be less than standard lines long.</description>
+   <property name="RulesTypographyFileLengthError" type="integer"  merge ="sum" id="2761238">
+			<description>File suggested to be less than standard lines long.</description>
+			<attribute name="INF_TYPE" intValue="2761238"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyLineLengthError" id="2761048"> 
+	<description>Line suggested to be less than standard characters long.</description>
+    <property name="RulesTypographyLineLengthError" type="integer"  merge ="sum" id="2761240">
+			<description>Line suggested to be less than standard characters long.</description>
+			<attribute name="INF_TYPE" intValue="2761240"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyTabCharacterError" id="2761050"> 
+	<description>Consider replacing tab (\t) with spaces.</description>
+   <property name="RulesTypographyTabCharacterError" type="integer"  merge ="sum" id="2761242">
+			<description>Consider replacing tab (\t) with spaces.</description>
+			<attribute name="INF_TYPE" intValue="2761242"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyTrailingLineError" id="2761052"> 
+	<description>Found trailing whitespace line at end of file.</description>
+  <property name="RulesTypographyTrailingLineError" type="integer"  merge ="sum" id="2761244">
+			<description>Found trailing whitespace line at end of file.</description>
+			<attribute name="INF_TYPE" intValue="2761244"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyTrailingWhitespaceError" id="2761054"> 
+	<description>Found trailing whitespace at end of line.</description>
+    <property name="RulesTypographyTrailingWhitespaceError" type="integer"  merge ="sum" id="2761246">
+			<description>Found trailing whitespace at end of line.</description>
+			<attribute name="INF_TYPE" intValue="2761246"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesUselessBindingError" id="2761056"> 
+	<description>Binding appears to have no purpose.</description>
+     <property name="RulesUselessBindingError" type="integer"  merge ="sum" id="2761248">
+			<description>Binding appears to have no purpose.</description>
+			<attribute name="INF_TYPE" intValue="2761248"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesWildcardNamedWithAsPattern" id="2761058"> 
+	<description>Unnecessary wildcard named using the as pattern the wildcard can be removed e.g. _ as x replaced with x.</description>
+   <property name="RulesWildcardNamedWithAsPattern" type="integer"  merge ="sum" id="2761250">
+			<description>Unnecessary wildcard named using the as pattern the wildcard can be removed e.g. _ as x replaced with x.</description>
+			<attribute name="INF_TYPE" intValue="2761250"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesInvalidArgWithTwoArguments" id="2761060"> 
+	<description>invalidArg should have two arguments further arguments will be ignored by the compiler.</description>
+   <property name="RulesInvalidArgWithTwoArguments" type="integer"  merge ="sum" id="2761252">
+			<description>invalidArg should have two arguments further arguments will be ignored by the compiler.</description>
+			<attribute name="INF_TYPE" intValue="2761252"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesInvalidOpWithSingleArgument" id="2761062"> 
+	<description>invalidOp should have a single argument further arguments will be ignored by the compiler.</description>
+  <property name="RulesInvalidOpWithSingleArgument" type="integer"  merge ="sum" id="2761256">
+			<description>invalidOp should have a single argument further arguments will be ignored by the compiler.</description>
+			<attribute name="INF_TYPE" intValue="2761256"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesNullArgWithSingleArgument" id="2761064"> 
+	<description>nullArg should have a single argument further arguments will be ignored by the compiler.</description>
+  <property name="RulesNullArgWithSingleArgument" type="integer"  merge ="sum" id="2761258">
+			<description>nullArg should have a single argument further arguments will be ignored by the compiler.</description>
+			<attribute name="INF_TYPE" intValue="2761258"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTupleOfWildcardsError" id="2761066"> 
+	<description>A tuple of wildcards in a pattern can be replaced with a single wildcard.  can be replaced with ..</description>
+  <property name="RulesTupleOfWildcardsError" type="integer"  merge ="sum" id="2761260">
+			<description>A tuple of wildcards in a pattern can be replaced with a single wildcard.  can be replaced with ..</description>
+			<attribute name="INF_TYPE" intValue="2761260"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_LintSourceError" id="2761068"> 
+	<description>Error on line  starting at column.</description>
+  <property name="LintSourceError" type="integer"  merge ="sum" id="2761262">
+			<description>Error on line  starting at column.</description>
+			<attribute name="INF_TYPE" intValue="2761262"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesCanBeReplacedWithComposition" id="2761070"> 
+	<description>Lambda may be able to be replaced with composition. e.g. fun x -&gt; x |&gt; isValid |&gt; not could be replaced with isValid &gt;&gt; not</description>
+  <property name="RulesCanBeReplacedWithComposition" type="integer"  merge ="sum" id="2761264">
+			<description>Lambda may be able to be replaced with composition. e.g. fun x -&gt; x |&gt; isValid |&gt; not could be replaced with isValid &gt;&gt; not </description>
+			<attribute name="INF_TYPE" intValue="2761264"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesRedundantNewKeyword" id="2761072"> 
+	<description>Usage of new keyword here is redundant.</description>
+    <property name="RulesRedundantNewKeyword" type="integer"  merge ="sum" id="2761266">
+			<description>Usage of new keyword here is redundant.</description>
+			<attribute name="INF_TYPE" intValue="2761266"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClausesOnNewLineError" id="2761074"> 
+	<description>Each match clause should be placed on its own line.</description>
+  <property name="RulesFormattingPatternMatchClausesOnNewLineError" type="integer"  merge ="sum" id="2761268">
+			<description>Each match clause should be placed on its own line.</description>
+			<attribute name="INF_TYPE" intValue="2761268"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingPatternMatchOrClausesOnNewLineError" id="2761076"> 
+	<description>Each 'or' match clause should be placed on its own line</description>   
+  <property name="RulesFormattingPatternMatchOrClausesOnNewLineError" type="integer"  merge ="sum" id="2761270">
+			<description>Each 'or' match clause should be placed on its own line </description>
+			<attribute name="INF_TYPE" intValue="2761270"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingTupleCommaSpacingError" id="2761078"> 
+	<description>Comma in tuple instantiation should be followed by single space.</description>
+   <property name="RulesFormattingTupleCommaSpacingError" type="integer"  merge ="sum" id="2761272">
+			<description>Comma in tuple instantiation should be followed by single space.</description>
+			<attribute name="INF_TYPE" intValue="2761272"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingTupleIndentationError" id="2761080"> 
+	<description>Sub-expressions of tuple on different lines should have consistent indentation.</description>
+  <property name="RulesFormattingTupleIndentationError" type="integer"  merge ="sum" id="2761274">
+			<description>Sub-expressions of tuple on different lines should have consistent indentation. </description>
+			<attribute name="INF_TYPE" intValue="2761274"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingTupleParenthesesError" id="2761082"> 
+	<description>Use parentheses for tuple instantiation.</description> 
+  <property name="RulesFormattingTupleParenthesesError" type="integer"  merge ="sum" id="2761276">
+			<description>Use parentheses for tuple instantiation.</description>
+			<attribute name="INF_TYPE" intValue="2761276"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingTypedItemSpacingError" id="2761084"> 
+	<description>Expected  space(s) before and {1} space(s) after ':' in typed item.</description>
+  <property name="RulesFormattingTypedItemSpacingError" type="integer"  merge ="sum" id="2761278">
+			<description>Expected  space(s) before and {1} space(s) after ':' in typed item.</description>
+			<attribute name="INF_TYPE" intValue="2761278"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingFArrayPostfixError" id="2761086"> 
+	<description>Use special postfix syntax for F type array.</description>
+  <property name="RulesFormattingFArrayPostfixError" type="integer"  merge ="sum" id="2761280">
+			<description>Use special postfix syntax for F type array. </description>
+			<attribute name="INF_TYPE" intValue="2761280"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingFPostfixGenericError" id="2761088"> 
+	<description>Use postfix syntax for fsharp type .</description>
+  <property name="RulesFormattingFPostfixGenericError" type="integer"  merge ="sum" id="2761282">
+			<description>Use postfix syntax for fsharp type .</description>
+			<attribute name="INF_TYPE" intValue="2761282"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>LengthError
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingGenericPrefixError" id="2761090"> 
+	<description>Use prefix syntax for generic type.</description>
+  <property name="RulesFormattingGenericPrefixError" type="integer"  merge ="sum" id="2761284">
+			<description>Use prefix syntax for generic type.</description>
+			<attribute name="INF_TYPE" intValue="2761284"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClauseIndentationError" id="2761092"> 
+	<description>Match clauses should be in line with 'match' keyword.</description>
+   <property name="RulesFormattingPatternMatchClauseIndentationError" type="integer"  merge ="sum" id="2761286">
+			<description>Match clauses should be in line with 'match' keyword.</description>
+			<attribute name="INF_TYPE" intValue="2761286"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingLambdaPatternMatchClauseIndentationError" id="2761094"> 
+	<description>Match clauses should be indented one level from 'function' keyword.</description>
+   <property name="RulesFormattingLambdaPatternMatchClauseIndentationError" type="integer"  merge ="sum" id="2761288">
+			<description>Match clauses should be indented one level from 'function' keyword.</description>
+			<attribute name="INF_TYPE" intValue="2761288"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingPatternMatchClauseSameIndentationError" id="2761096"> 
+	<description>Match clauses should be at the same indentation level.</description>
+   <property name="RulesFormattingPatternMatchClauseSameIndentationError" type="integer"  merge ="sum" id="2761290">
+			<description>Match clauses should be at the same indentation level.</description>
+			<attribute name="INF_TYPE" intValue="2761290"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingMatchExpressionIndentationError" id="2761098"> 
+	<description>If RHS of pattern match case is on newline it should be indentend by one level.</description>
+  <property name="RulesFormattingMatchExpressionIndentationError" type="integer"  merge ="sum" id="2761292">
+			<description>If RHS of pattern match case is on newline it should be indentend by one level.</description>
+			<attribute name="INF_TYPE" intValue="2761292"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingModuleDeclSpacingError" id="2761100"> 
+	<description>Separate module declarations with 2 blank lines.</description>
+  <property name="RulesFormattingModuleDeclSpacingError" type="integer"  merge ="sum" id="2761294">
+			<description>Separate module declarations with 2 blank lines.</description>
+			<attribute name="INF_TYPE" intValue="2761294"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingClassMemberSpacingError" id="2761102"> 
+	<description>Class members should be separated by 1 blank line.</description>
+  <property name="RulesFormattingClassMemberSpacingError" type="integer"  merge ="sum" id="2761296">
+			<description>Class members should be separated by 1 blank line.</description>
+			<attribute name="INF_TYPE" intValue="2761296"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingUnionDefinitionIndentationError" id="2761104"> 
+	<description>Union definition cases should be indented one level on a new line.</description>
+  <property name="RulesFormattingUnionDefinitionIndentationError" type="integer"  merge ="sum" id="2761298">
+			<description>Union definition cases should be indented one level on a new line.</description>
+			<attribute name="INF_TYPE" intValue="2761298"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesFormattingUnionDefinitionSameIndentationError" id="2761106"> 
+	<description>Union definition cases should be at the same indentation level.</description>
+   <property name="RulesFormattingUnionDefinitionSameIndentationError" type="integer"  merge ="sum" id="2761300">
+			<description>Union definition cases should be at the same indentation level.</description>
+			<attribute name="INF_TYPE" intValue="2761300"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+ </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesConventionsTopLevelNamespaceError" id="2761108"> 
+	<description>>Prefer namespaces at top level.</description>
+   <property name="RulesConventionsTopLevelNamespaceError" type="integer"  merge ="sum" id="2761302">
+			<description>Prefer namespaces at top level.</description>
+			<attribute name="INF_TYPE" intValue="2761302"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+   </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyIndentationError" id="2761110"> 
+	<description>Indentation must use a multiple of spaces.</description>
+   <property name="RulesTypographyIndentationError" type="integer"  merge ="sum" id="2761304">
+			<description>Indentation must use a multiple of spaces.</description>
+			<attribute name="INF_TYPE" intValue="2761304"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyRecordFieldIndentationError" id="2761112"> 
+	<description>Record fields should be aligned..</description>
+   <property name="RulesTypographyRecordFieldIndentationError" type="integer"  merge ="sum" id="2761306">
+			<description>Record fields should be aligned.</description>
+			<attribute name="INF_TYPE" intValue="2761306"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesTypographyOverridenIndentationError" id="2761114"> 
+	<description>Invalid indentation.</description>
+   <property name="RulesTypographyOverridenIndentationError" type="integer"  merge ="sum" id="2761308">
+			<description>Invalid indentation.</description>
+			<attribute name="INF_TYPE" intValue="2761308"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+  </category>
+	
+	<category name="fsharplint_CustomMetrics_RulesConventionsRecursiveAsyncFunctionError" id="2761116"> 
+	<description>Recursive async functions ending with a do recursive call will leak memory; prefer return.</description>
+   <property name="RulesConventionsRecursiveAsyncFunctionError" type="integer"  merge ="sum" id="2761310">
+			<description>Recursive async functions ending with a do recursive call will leak memory; prefer return.</description>
+			<attribute name="INF_TYPE" intValue="2761310"/>
+			<attribute name="INF_SUB_TYPE" intValue="1"/>
+			<attribute name="ACCESS_APPVIEW" intValue="1"/>
+			<attribute name="ACCESS_CVS" intValue="1"/>
+			<attribute name="ACCESS_HTML" intValue="1"/>
+  </property>
+   
+</category>
+   
+ 		
+</metaModel>

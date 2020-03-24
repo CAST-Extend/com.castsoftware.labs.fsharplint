@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Package PackName="PLUGIN_Tibco_LOCAL" Type="SPECIFIC" Version="1.0.0.0" SupportedServer="ALL" Display="ADG Metric Tree for Tibco" Description="" DatabaseKind="KB_LOCAL">
+<Package PackName="PLUGIN_fsharplint_LOCAL" Type="SPECIFIC" Version="1.0.0.0" SupportedServer="ALL" Display="ADG Metric Tree for fsharplint" Description="" DatabaseKind="KB_LOCAL">
 	<Include>
 	</Include>
 	<Exclude>

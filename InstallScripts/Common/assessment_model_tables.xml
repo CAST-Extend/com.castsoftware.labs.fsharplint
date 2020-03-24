@@ -106,14 +106,14 @@
     </index>
   </table>
   
-  <scope name="TibcoScope">
-  	<scopetable name="DSS_METRIC_TYPES" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/>
-  	<scopetable name="DSS_METRIC_TYPE_TREES" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/>
-  	<scopetable name="DSS_METRIC_VALUE_TYPES" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/>
-  	<scopetable name="DSS_METRIC_DESCRIPTIONS" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/>
-  	<scopetable name="DSS_METRIC_PARAM_TYPES" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/> <!-- OBJECT_TYPE_ID=... is needed for correct cleanup of parameters for distributions-->
-  	<scopetable name="DSS_METRIC_PARAM_VALUES" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/> <!-- OBJECT_TYPE_ID=... is needed for correct cleanup of parameters for distributions-->
-  	<scopetable name="DSS_METRIC_STATUS_THRESHOLDS" filter="(METRIC_ID BETWEEN 2758000 AND 2758999)"/>
+  <scope name="fsharplintScope">
+  	<scopetable name="DSS_METRIC_TYPES" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/>
+  	<scopetable name="DSS_METRIC_TYPE_TREES" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/>
+  	<scopetable name="DSS_METRIC_VALUE_TYPES" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/>
+  	<scopetable name="DSS_METRIC_DESCRIPTIONS" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/>
+  	<scopetable name="DSS_METRIC_PARAM_TYPES" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/> <!-- OBJECT_TYPE_ID=... is needed for correct cleanup of parameters for distributions-->
+  	<scopetable name="DSS_METRIC_PARAM_VALUES" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/> <!-- OBJECT_TYPE_ID=... is needed for correct cleanup of parameters for distributions-->
+  	<scopetable name="DSS_METRIC_STATUS_THRESHOLDS" filter="(METRIC_ID BETWEEN 2761000 AND 2761999)"/>
   </scope>
 
  </config>

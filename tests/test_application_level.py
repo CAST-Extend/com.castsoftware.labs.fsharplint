@@ -9,7 +9,7 @@ class TestIntegration(unittest.TestCase):
 
     def test2(self):
         
-        run(kb_name='genlink_local', application_name='shopper', engine=create_postgres_engine())
+        run(kb_name='microsharp_local', application_name='qtest', engine=create_postgres_engine())
        
 
 if __name__ == "__main__":

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <DATA model="OBJSET" version="1.0.0.0" scope="OBJSETINIT" export="OK">
 <SET_Definitions>
-	<SetId>27580010</SetId>
-	<SetName>SET_Tibco_CustomMetrics</SetName>
+	<SetId>2760005</SetId>
+	<SetName>SET_fsharplint_CustomMetrics</SetName>
 	<SetType>DIAG_SCOPE</SetType>
-	<SetProcedure>SET_Tibco_CustomMetrics</SetProcedure>
+	<SetProcedure>SET_fsharplint_CustomMetrics</SetProcedure>
 </SET_Definitions>
 </DATA>

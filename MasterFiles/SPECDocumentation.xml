@@ -1,3 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <root>
+    <metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored" section="associatedValueName">
+	    <english> fsharp lint violation patterns</english>
+	</metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="description">
+	    <english>fsharp lint  violation.</english>
+	</metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="name">
+	    <english>fsharp lint  violation</english>
+	</metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="output">
+	    <english>fsharp lint  violation.</english>
+    </metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="rationale">
+	    <english>fsharp lint  violation.</english>
+	</metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="remediation">
+	    <english>fsharp lint  violation</english>
+	</metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="remediationSample">
+	    <english>fsharp lint fixed.</english>
+	</metric>
+	
+	<metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="sample">
+	    <english>fsharp lint violation.</english>
+	</metric>
+	
+	 <metric id='2761012' type="quality-rule" originalName="Hint This code might be able to be refactored"  section="total">
+		<english>The total procedure counts fsharp lint Access.</english>
+	 </metric>
 </root>
